@@ -4,9 +4,11 @@ import { Container } from "./styles";
 
 export function Dasboard() {
   return (
-    <Container>
+    <>
       <PanelButtons />
-      <TodoList />
-    </Container>
+      <Container>
+        <TodoList />
+      </Container>
+    </>
   );
 }
