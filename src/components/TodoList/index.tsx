@@ -12,7 +12,6 @@ export function TodoList() {
 
   function handleClickTask(element, elementIsOpen) {
     const helper = elementIsOpen === true ? false : true;
-    console.log(element);
     if (element === "openCompleteTask") {
       setOpenCompleteTask(helper);
     } else if (element === "openPendingTask") {

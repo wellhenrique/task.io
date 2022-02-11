@@ -78,15 +78,4 @@ export const Container = styled.div`
       transform: rotate(45deg), rotate(-45deg);
     }
   }
-
-  @keyframes showUp {
-    from {
-      opacity: 0;
-      transform: translate3d(0, -30px, 0);
-    }
-    to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
-  }
 `;
